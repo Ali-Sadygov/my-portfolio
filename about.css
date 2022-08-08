@@ -1,0 +1,159 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+body {
+	background: url(./Foto/divar.png);
+}
+.div1 {
+	background-color: white;
+	border-bottom: solid rgb(223, 218, 218) 2px;
+	height: 90px;
+}
+.name {
+	background-color: #4aaaa5;
+	display: inline-block;
+	margin-left: 200px;
+	color: white;
+	height: 100%;
+	width: 18%;
+	text-align: center;
+	font-size: 35px;
+	text-decoration: none;
+	line-height: 2.5;
+	font-weight: 900;
+}
+li {
+	display: inline;
+}
+.menu {
+	text-decoration: none;
+	display: inline;
+	font-size: 25px;
+	margin: 0px 6px;
+	line-height: 3.2;
+	color: rgb(151, 150, 150);
+}
+nav {
+	float: right;
+	margin-right: 210px;
+}
+li +li::before {
+	content: "❘";
+	color: rgb(151, 150, 150);
+	margin-right: 6px;
+}
+li a:hover {
+	color: red;
+	text-decoration: underline;
+}
+.div2 {
+	background-color: white;
+	border: solid 1px rgb(223, 218, 218);
+	margin: 38px 16px 38px 200px;
+	width: 643px;
+	height: 478px;
+	padding: 40px 30px 30px 30px;
+	box-sizing: border-box;
+	position: absolute;
+}
+h1 {
+	color: #4aaaa5;
+	font-size: 35px;
+	font-weight: 900;
+	border-bottom: solid rgb(224, 224, 224);
+	height: 13%;
+}
+.sekil {
+	float: left;
+	margin: 30px 20px 20px 0px;
+	display: block;
+}
+p {
+	font-size: 24px;
+	padding-top: 22px;
+	line-height: 35px;
+	color: rgb(138, 136, 136);
+}
+.div3 {
+	background-color: white;
+	width: 270px;
+	float: right;
+	margin: 38px 196px 0px 38px;
+	height: 200px;
+	border: solid 1px rgb(223, 218, 218);
+}
+h2 {
+	color: #4aaaa5;
+	border-bottom: 2px solid rgb(240, 236, 236);
+	font-size: 25px;
+	font-weight: 900;
+	padding-bottom: 20px;
+	margin: 30px 30px 17px 30px;
+}
+.github {
+	margin: 5px 1px 80px 30px;
+}
+.instagram {
+	margin: 5px 1px 80px 1px;
+
+}
+.gmail {
+	margin: 5px 1px 80px 1px;
+}
+footer{
+	background-color: #666;
+	height: 100px;
+	border-top: #4aaaa5 solid 8px;
+	margin-top: 41.5%;
+}
+footer div {
+	text-align: center;
+	color: rgb(223, 218, 218);
+	line-height: 8;
+	font-size: 12px;
+}
